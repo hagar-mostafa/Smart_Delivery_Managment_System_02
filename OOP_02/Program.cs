@@ -169,10 +169,6 @@ namespace OOP_02
             Console.Write("Enter Center Name: ");
             center.CenterName = Console.ReadLine();
 
-            // ─────────────────────────────────────────
-            // 6. Read all shipment data from the user
-            // ─────────────────────────────────────────
-
             // 3. Create one StandardShipment
             Console.WriteLine("\n--- Enter Standard Shipment Data ---");
             Console.Write("Tracking Code: ");
