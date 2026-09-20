@@ -27,6 +27,15 @@ internal class Program
 
     #endregion
 
+    #region  Part 01 : Theoretical Questions "Code"
+    /*
+     1. Class Parent is Shipment
+     2.  The Child Class is expressShipment
+     3.  he inherit the  TrackingCode Property
+     4.  Duplicating makes the code more complex and that isn't Practical in real world projects
+     */
+    #endregion
+
     static public void Main()
     {
       
