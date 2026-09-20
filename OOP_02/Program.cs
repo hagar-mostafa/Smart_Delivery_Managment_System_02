@@ -110,7 +110,7 @@ namespace OOP_02
 
             }
             // computed property
-            public decimal EstimatedCost
+            public virtual decimal EstimatedCost
             {
                 get
                 {
@@ -153,6 +153,11 @@ namespace OOP_02
                 Console.WriteLine($"The Destination is => {Destination.GetFullAddress()}");
                 Console.WriteLine($"The EstimateCost is => {EstimatedCost}");
             }
+            public override string ToString()
+            {
+                return $"TrackingCode = {TrackingCode}  , Description = {Description} , Weight = {Weight} , DeliveryFee = {DeliveryFee}, Destination = {Destination}";
+            }
+
         }
         #endregion
 
