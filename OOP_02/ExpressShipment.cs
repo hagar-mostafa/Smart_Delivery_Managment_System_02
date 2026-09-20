@@ -30,10 +30,10 @@ namespace OOP_02
             public ExpressShipment(string trackingCode, string description, decimal weight, decimal deliveryFee, DeliveryAddress destination) : base(trackingCode, description, weight, deliveryFee, destination) {
             ExtraFee = _ExtraFee;
         }
-        public override string ToString()
-        {
-            return $"TrackingCode = {TrackingCode}  , Description = {Description} , Weight = {Weight} , DeliveryFee = {DeliveryFee}, Destination = {Destination} ,ExtraFee {ExtraFee} ";
-        }
+        //public override string ToString()
+        //{
+        //    return $"TrackingCode = {TrackingCode}  , Description = {Description} , Weight = {Weight} , DeliveryFee = {DeliveryFee}, Destination = {Destination} ,ExtraFee {ExtraFee} ";
+        //}
     }
     }
     

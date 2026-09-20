@@ -38,12 +38,16 @@ namespace OOP_02
         {
             get
             {
-                return CustomsFee + (Weight * 5) + CustomsFee;
+                return DeliveryFee + (Weight * 5) + CustomsFee;
             }
         }
         public InternationalShipment(string trackingCode, string description, decimal weight, decimal deliveryFee, DeliveryAddress destination) : base(trackingCode, description, weight, deliveryFee, destination)
         {
             CustomsFee = _CustomsFee;
         }
+        //public override string ToString()
+        //{
+        //    return $"TrackingCode = {TrackingCode}  , Description = {Description} , Weight = {Weight} , DeliveryFee = {DeliveryFee}, Destination = {Destination} ,CustomsFee {CustomsFee} ";
+        //}
     }
 }
